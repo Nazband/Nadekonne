@@ -1,1 +1,1 @@
-worker: credentials.js
+worker: credentials.json

@@ -3,9 +3,9 @@
   "name": "Nadekonne",
   "description": "Just un logger en fait",
   "version": "0.0.0",
-  "main": "credentials.js",
+  "main": "credentials.json",
   "scripts": {
-    "start": "credentials.js"
+    "start": "credentials.json"
   },
   "dependencies": {
     "discord.js": "11.1.0",

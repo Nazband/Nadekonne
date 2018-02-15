@@ -7,9 +7,15 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'ping') {
-    	message.reply('pong');
+    	message.channel.send('PONG!');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'bing') {
+    	message.reply('BONG!');
   	}
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(NDA2ODMzMzE0NTkxMTQ1OTg1.DWdHlw.alQQ_YswX7eDrz3ampuEl4j1rMo);
+client.login(process.env.BOT_TOKEN);
